@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Bus",
+    "slug": "Bus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/img_logo_bus.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "anhtuanbui.bus",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/img_logo_bus.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBtlfSbj3Oj8vLObfCUIlrWyE_OiLknV8w"
+        }
+      },
+      "permissions": [
+        "ACCESS_BACKGROUND_LOCATION", 
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "FOREGROUND_SERVICE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
